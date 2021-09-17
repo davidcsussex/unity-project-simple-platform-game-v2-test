@@ -1,0 +1,1812 @@
+fileFormatVersion: 2
+guid: 685c0e00b2b8e684ea5f44e00399363e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -726276240187546584
+    second: crusader_0
+  - first:
+      213: 3227866630742586107
+    second: crusader_1
+  - first:
+      213: -4062570864542004789
+    second: crusader_2
+  - first:
+      213: 7337840703319410689
+    second: crusader_3
+  - first:
+      213: -9137825113638305593
+    second: crusader_4
+  - first:
+      213: -1942560791528715264
+    second: crusader_5
+  - first:
+      213: 6375369886563057161
+    second: crusader_6
+  - first:
+      213: -142966133977676759
+    second: crusader_7
+  - first:
+      213: -7387213082808395461
+    second: crusader_8
+  - first:
+      213: -410859624322161423
+    second: crusader_9
+  - first:
+      213: -5733651580767004094
+    second: crusader_10
+  - first:
+      213: 8782120589070782539
+    second: crusader_11
+  - first:
+      213: 867154944357415046
+    second: crusader_12
+  - first:
+      213: -1323128137435117239
+    second: crusader_13
+  - first:
+      213: 2196521739251962604
+    second: crusader_14
+  - first:
+      213: 7892346553978637233
+    second: crusader_15
+  - first:
+      213: 4637973373193398100
+    second: crusader_16
+  - first:
+      213: -2850408415538235483
+    second: crusader_17
+  - first:
+      213: -194497193194640043
+    second: crusader_18
+  - first:
+      213: 6269363832620852356
+    second: crusader_19
+  - first:
+      213: 2052381093763556421
+    second: crusader_20
+  - first:
+      213: -8372236638894376712
+    second: crusader_21
+  - first:
+      213: 526586060624493790
+    second: crusader_22
+  - first:
+      213: -4772802751486904797
+    second: crusader_23
+  - first:
+      213: -9146204072958276654
+    second: crusader_24
+  - first:
+      213: -1855489737959292534
+    second: crusader_25
+  - first:
+      213: -2189741777525815091
+    second: crusader_26
+  - first:
+      213: -1411523199606234135
+    second: crusader_27
+  - first:
+      213: 466583120798193104
+    second: crusader_28
+  - first:
+      213: 4853802511362491271
+    second: crusader_29
+  - first:
+      213: -3289994327151538657
+    second: crusader_30
+  - first:
+      213: 4436317444805507438
+    second: crusader_31
+  - first:
+      213: 8461694461611602656
+    second: crusader_32
+  - first:
+      213: 7460143381525324077
+    second: crusader_33
+  - first:
+      213: 8733278576399692528
+    second: crusader_34
+  - first:
+      213: -4592678223530262472
+    second: crusader_35
+  - first:
+      213: -7552361147987086305
+    second: crusader_36
+  - first:
+      213: -2882224351854520565
+    second: crusader_37
+  - first:
+      213: -8027089909816913938
+    second: crusader_38
+  - first:
+      213: 973333760362111476
+    second: crusader_39
+  - first:
+      213: -6261360119339817940
+    second: crusader_40
+  - first:
+      213: -7709427286754892077
+    second: crusader_41
+  - first:
+      213: 2770758267241955096
+    second: crusader_42
+  - first:
+      213: 49166668481711969
+    second: crusader_43
+  - first:
+      213: -3250534903702714163
+    second: crusader_44
+  - first:
+      213: 2183406254912567574
+    second: crusader_45
+  - first:
+      213: 8939500253415036454
+    second: crusader_46
+  - first:
+      213: -6884315748307663128
+    second: crusader_47
+  - first:
+      213: -6115944222164303026
+    second: crusader_48
+  - first:
+      213: 1437372004979418146
+    second: crusader_49
+  - first:
+      213: 5177805331552173861
+    second: crusader_50
+  - first:
+      213: -9135541576039323173
+    second: crusader_51
+  - first:
+      213: 7239567161278960596
+    second: crusader_52
+  - first:
+      213: -989143004271532401
+    second: crusader_53
+  - first:
+      213: -118356980284157286
+    second: crusader_54
+  - first:
+      213: -4184597477334966368
+    second: crusader_55
+  - first:
+      213: 8904419063449172714
+    second: crusader_56
+  - first:
+      213: -4861859405053552940
+    second: crusader_57
+  - first:
+      213: -856455339524184215
+    second: crusader_58
+  - first:
+      213: 3661672709690209559
+    second: crusader_59
+  - first:
+      213: -5918429175092294295
+    second: crusader_60
+  - first:
+      213: 4194338508964029180
+    second: crusader_61
+  - first:
+      213: -7805923575161629323
+    second: crusader_62
+  - first:
+      213: -8781645432187275801
+    second: crusader_63
+  - first:
+      213: -2904499431912366616
+    second: crusader_64
+  - first:
+      213: 1154568352036541250
+    second: crusader_65
+  - first:
+      213: -7623644271156259366
+    second: crusader_66
+  - first:
+      213: 8321384803485575225
+    second: crusader_67
+  - first:
+      213: 8409786104718761145
+    second: crusader_68
+  - first:
+      213: -2809623389366881647
+    second: crusader_69
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: crusader_0
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 2422
+        width: 322
+        height: 297
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 824a0d68b9fbbe5f0800000000000000
+      internalID: -726276240187546584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_1
+      rect:
+        serializedVersion: 2
+        x: 1751
+        y: 2420
+        width: 322
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf2bfb3499fabcc20800000000000000
+      internalID: 3227866630742586107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_2
+      rect:
+        serializedVersion: 2
+        x: 2099
+        y: 2417
+        width: 377
+        height: 268
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc94f18b259de97c0800000000000000
+      internalID: -4062570864542004789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_3
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 2424
+        width: 273
+        height: 338
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10881cbfd3f35d560800000000000000
+      internalID: 7337840703319410689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_4
+      rect:
+        serializedVersion: 2
+        x: 2815
+        y: 2431
+        width: 258
+        height: 346
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c002f1397cef2180800000000000000
+      internalID: -9137825113638305593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_5
+      rect:
+        serializedVersion: 2
+        x: 3155
+        y: 2449
+        width: 297
+        height: 174
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c44529043aa05e0800000000000000
+      internalID: -1942560791528715264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_6
+      rect:
+        serializedVersion: 2
+        x: 3489
+        y: 2443
+        width: 330
+        height: 145
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90e3058322dd97850800000000000000
+      internalID: 6375369886563057161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_7
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 1793
+        width: 315
+        height: 337
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92489510f05140ef0800000000000000
+      internalID: -142966133977676759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_8
+      rect:
+        serializedVersion: 2
+        x: 1769
+        y: 2115
+        width: 197
+        height: 248
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b39561f17d85b7990800000000000000
+      internalID: -7387213082808395461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_9
+      rect:
+        serializedVersion: 2
+        x: 1991
+        y: 2115
+        width: 199
+        height: 250
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f42ab739555c4af0800000000000000
+      internalID: -410859624322161423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_10
+      rect:
+        serializedVersion: 2
+        x: 2239
+        y: 2115
+        width: 201
+        height: 252
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a9686f34afd60b0800000000000000
+      internalID: -5733651580767004094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_11
+      rect:
+        serializedVersion: 2
+        x: 2497
+        y: 2115
+        width: 199
+        height: 250
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b405536652c50e970800000000000000
+      internalID: 8782120589070782539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_12
+      rect:
+        serializedVersion: 2
+        x: 2840
+        y: 2115
+        width: 266
+        height: 256
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 688b5a7d3d0c80c00800000000000000
+      internalID: 867154944357415046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_13
+      rect:
+        serializedVersion: 2
+        x: 3130
+        y: 2117
+        width: 193
+        height: 250
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9490bdf18fd43ade0800000000000000
+      internalID: -1323128137435117239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_14
+      rect:
+        serializedVersion: 2
+        x: 3382
+        y: 2117
+        width: 207
+        height: 248
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce2598952ec9b7e10800000000000000
+      internalID: 2196521739251962604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_15
+      rect:
+        serializedVersion: 2
+        x: 3624
+        y: 2117
+        width: 225
+        height: 226
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bbcc2a106f378d60800000000000000
+      internalID: 7892346553978637233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_16
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1796
+        width: 278
+        height: 307
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 457a9eab5346d5040800000000000000
+      internalID: 4637973373193398100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_17
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 1796
+        width: 331
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a73f0fe5a05178d0800000000000000
+      internalID: -2850408415538235483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_18
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 1794
+        width: 285
+        height: 313
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55da2d155d10d4df0800000000000000
+      internalID: -194497193194640043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_19
+      rect:
+        serializedVersion: 2
+        x: 2280
+        y: 1795
+        width: 217
+        height: 254
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4842c037031410750800000000000000
+      internalID: 6269363832620852356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_20
+      rect:
+        serializedVersion: 2
+        x: 2528
+        y: 1795
+        width: 229
+        height: 253
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54421851bb58b7c10800000000000000
+      internalID: 2052381093763556421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_21
+      rect:
+        serializedVersion: 2
+        x: 2788
+        y: 1795
+        width: 250
+        height: 253
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f8b03b8227dfcb80800000000000000
+      internalID: -8372236638894376712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_22
+      rect:
+        serializedVersion: 2
+        x: 3083
+        y: 1795
+        width: 226
+        height: 253
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edcf13f6b3fce4700800000000000000
+      internalID: 526586060624493790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_23
+      rect:
+        serializedVersion: 2
+        x: 3345
+        y: 1795
+        width: 247
+        height: 253
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 326bd965f2993cdb0800000000000000
+      internalID: -4772802751486904797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_24
+      rect:
+        serializedVersion: 2
+        x: 3603
+        y: 1795
+        width: 265
+        height: 255
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2db4714bad7221180800000000000000
+      internalID: -9146204072958276654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_25
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1458
+        width: 283
+        height: 313
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a81cd840ae9ff36e0800000000000000
+      internalID: -1855489737959292534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_26
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1117
+        width: 264
+        height: 359
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc8cdb084797c91e0800000000000000
+      internalID: -2189741777525815091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_27
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1458
+        width: 271
+        height: 319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e36f37e023496ce0800000000000000
+      internalID: -1411523199606234135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_28
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 1117
+        width: 416
+        height: 613
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d59e5550e2a97600800000000000000
+      internalID: 466583120798193104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_29
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 1443
+        width: 374
+        height: 281
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78309a3eaab2c5340800000000000000
+      internalID: 4853802511362491271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_30
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 1119
+        width: 420
+        height: 367
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1e051137979752d0800000000000000
+      internalID: -3289994327151538657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_31
+      rect:
+        serializedVersion: 2
+        x: 2265
+        y: 1449
+        width: 265
+        height: 256
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6930802637f09d30800000000000000
+      internalID: 4436317444805507438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_32
+      rect:
+        serializedVersion: 2
+        x: 2546
+        y: 1451
+        width: 248
+        height: 254
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e2ff36e74afd6570800000000000000
+      internalID: 8461694461611602656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_33
+      rect:
+        serializedVersion: 2
+        x: 2803
+        y: 1449
+        width: 225
+        height: 254
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d216c4541e0c78760800000000000000
+      internalID: 7460143381525324077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_34
+      rect:
+        serializedVersion: 2
+        x: 3069
+        y: 1451
+        width: 248
+        height: 252
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f235d62896d23970800000000000000
+      internalID: 8733278576399692528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_35
+      rect:
+        serializedVersion: 2
+        x: 3370
+        y: 1451
+        width: 229
+        height: 252
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8308ece1d778340c0800000000000000
+      internalID: -4592678223530262472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_36
+      rect:
+        serializedVersion: 2
+        x: 3632
+        y: 1451
+        width: 217
+        height: 254
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14b4cecc8f903790800000000000000
+      internalID: -7552361147987086305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_37
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 1116
+        width: 270
+        height: 256
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b071bb009384008d0800000000000000
+      internalID: -2882224351854520565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_38
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 1119
+        width: 266
+        height: 281
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef8d31a14c0a9090800000000000000
+      internalID: -8027089909816913938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_39
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 775
+        width: 281
+        height: 361
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f1674ae5e9f18d00800000000000000
+      internalID: 973333760362111476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_40
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 775
+        width: 280
+        height: 359
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c24e3f3452e2b19a0800000000000000
+      internalID: -6261360119339817940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_41
+      rect:
+        serializedVersion: 2
+        x: 1778
+        y: 1119
+        width: 420
+        height: 255
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d6654f9abc920590800000000000000
+      internalID: -7709427286754892077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_42
+      rect:
+        serializedVersion: 2
+        x: 1804
+        y: 777
+        width: 279
+        height: 347
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ffe65c6f5b37620800000000000000
+      internalID: 2770758267241955096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_43
+      rect:
+        serializedVersion: 2
+        x: 2466
+        y: 1117
+        width: 162
+        height: 258
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f44a113dcaea000800000000000000
+      internalID: 49166668481711969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_44
+      rect:
+        serializedVersion: 2
+        x: 2704
+        y: 1118
+        width: 162
+        height: 254
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc88ac62ab7c3e2d0800000000000000
+      internalID: -3250534903702714163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_45
+      rect:
+        serializedVersion: 2
+        x: 2950
+        y: 1118
+        width: 162
+        height: 250
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 619fd60bb640d4e10800000000000000
+      internalID: 2183406254912567574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_46
+      rect:
+        serializedVersion: 2
+        x: 3183
+        y: 1117
+        width: 164
+        height: 252
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6265152fd1c7f0c70800000000000000
+      internalID: 8939500253415036454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_47
+      rect:
+        serializedVersion: 2
+        x: 3407
+        y: 1117
+        width: 182
+        height: 250
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e68e743d4ff570a0800000000000000
+      internalID: -6884315748307663128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_48
+      rect:
+        serializedVersion: 2
+        x: 3665
+        y: 1117
+        width: 164
+        height: 250
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e434bc3322dcf1ba0800000000000000
+      internalID: -6115944222164303026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_49
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 773
+        width: 260
+        height: 258
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 224a3e6193292f310800000000000000
+      internalID: 1437372004979418146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_50
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 777
+        width: 330
+        height: 291
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52f7a4f04824bd740800000000000000
+      internalID: 5177805331552173861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_51
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 777
+        width: 306
+        height: 330
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd92d59b659083180800000000000000
+      internalID: -9135541576039323173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_52
+      rect:
+        serializedVersion: 2
+        x: 2481
+        y: 773
+        width: 164
+        height: 250
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d39d9fe9fb187460800000000000000
+      internalID: 7239567161278960596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_53
+      rect:
+        serializedVersion: 2
+        x: 2694
+        y: 773
+        width: 182
+        height: 250
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f862556adabd542f0800000000000000
+      internalID: -989143004271532401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_54
+      rect:
+        serializedVersion: 2
+        x: 2940
+        y: 775
+        width: 163
+        height: 254
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a92997914f28b5ef0800000000000000
+      internalID: -118356980284157286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_55
+      rect:
+        serializedVersion: 2
+        x: 3196
+        y: 775
+        width: 162
+        height: 250
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af147be3c25de5c0800000000000000
+      internalID: -4184597477334966368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_56
+      rect:
+        serializedVersion: 2
+        x: 3433
+        y: 775
+        width: 162
+        height: 255
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeaba18e5f9d29b70800000000000000
+      internalID: 8904419063449172714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_57
+      rect:
+        serializedVersion: 2
+        x: 3659
+        y: 775
+        width: 162
+        height: 258
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d614ed51a4378cb0800000000000000
+      internalID: -4861859405053552940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_58
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 429
+        width: 315
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 967aca908624d14f0800000000000000
+      internalID: -856455339524184215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_59
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 429
+        width: 314
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 715b3d8ddefd0d230800000000000000
+      internalID: 3661672709690209559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_60
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 429
+        width: 316
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96dc05eb5048ddda0800000000000000
+      internalID: -5918429175092294295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_61
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 378
+        width: 431
+        height: 340
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf2ea8eb6a8453a30800000000000000
+      internalID: 4194338508964029180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_62
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 378
+        width: 586
+        height: 367
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 575d4aeadd9cba390800000000000000
+      internalID: -7805923575161629323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_63
+      rect:
+        serializedVersion: 2
+        x: 2544
+        y: 407
+        width: 422
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e5bb0fa104512680800000000000000
+      internalID: -8781645432187275801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_64
+      rect:
+        serializedVersion: 2
+        x: 2989
+        y: 368
+        width: 428
+        height: 367
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ed1a86c72521b7d0800000000000000
+      internalID: -2904499431912366616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_65
+      rect:
+        serializedVersion: 2
+        x: 3427
+        y: 376
+        width: 427
+        height: 246
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 243db0c8cc9d50010800000000000000
+      internalID: 1154568352036541250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_66
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 105
+        width: 238
+        height: 281
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad51acb5def533690800000000000000
+      internalID: -7623644271156259366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_67
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 105
+        width: 240
+        height: 283
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9386713e36f7b7370800000000000000
+      internalID: 8321384803485575225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_68
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 105
+        width: 246
+        height: 283
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc17c0c7ef85b470800000000000000
+      internalID: 8409786104718761145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crusader_69
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 105
+        width: 244
+        height: 283
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1927824d9663209d0800000000000000
+      internalID: -2809623389366881647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: a11d02697ab1fef45967205dd7ee13d3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
