@@ -21,7 +21,7 @@ public class PlayerScript : MonoBehaviour
     {
         DoJump();
         DoMove();
-        print(isGrounded);
+        
     }
 
     void DoJump()
@@ -29,7 +29,7 @@ public class PlayerScript : MonoBehaviour
         Vector2 velocity = rb.velocity;
 
         // check for jump
-        if (Input.GetKey("space") && isGrounded )
+        if (Input.GetKey("space") && (isGrounded==true) )
         {
             if (velocity.y < 0.01f )
             {
@@ -40,6 +40,18 @@ public class PlayerScript : MonoBehaviour
 
         rb.velocity = velocity;
 
+    }
+
+    void DoFaceLeft( bool faceLeft)
+    {
+        if( faceLeft == true )
+        {
+            transform.localRotation = Quaternion.Euler(0, 180, 0);
+        }
+        else
+        {
+            transform.localRotation = Quaternion.Euler(0, 0, 0);
+        }
     }
 
     void DoMove()
@@ -61,6 +73,7 @@ public class PlayerScript : MonoBehaviour
         }
 
         // check for moving right
+        
         if (Input.GetKey("right"))
         {
             velocity.x = 10;
@@ -76,8 +89,19 @@ public class PlayerScript : MonoBehaviour
             anim.Play("idle");
         }
 
-        rb.velocity = velocity;
+        
+        // make player face left or right depending on whether his velocity is positive or negative
+        if( velocity.x < -0.5f )
+        {
+            DoFaceLeft(true);
+        }
+        if( velocity.x > 0.5f )
+        {
+            DoFaceLeft(false);
+        }
 
+
+        rb.velocity = velocity;
     }
 
     private void OnCollisionStay2D(Collision2D collision)
