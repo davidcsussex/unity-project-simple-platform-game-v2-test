@@ -30,10 +30,9 @@ public class Spear : MonoBehaviour
         {
             rb.velocity = Vector3.zero;
             rb.isKinematic = true;
-            
 
-
-                Object.Destroy(gameObject, 0.3f);
+            // destroy after 0.3 seconds
+            Object.Destroy(gameObject, 0.3f);
 
         }
         else

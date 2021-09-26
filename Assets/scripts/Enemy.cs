@@ -1,6 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static Globals;
+
+
+
 
 public class Enemy : MonoBehaviour
 {
@@ -8,11 +12,17 @@ public class Enemy : MonoBehaviour
     public float enemySpeed;
     private Animator anim;
     public GameObject spear;
+    HelperScript helper;
+
+    
 
     // Start is called before the first frame update
     void Start()
     {
         anim = GetComponent<Animator>();
+        helper = GetComponent<HelperScript>();
+
+        
 
     }
 
@@ -31,26 +41,15 @@ public class Enemy : MonoBehaviour
 
         if ( player.transform.position.x < transform.position.x )
         {
-            DoFaceLeft(true);
+            helper.FlipObject(gameObject,Left);
         }
         else
         {
-            DoFaceLeft(false);
+            helper.FlipObject(gameObject, Right);
         }
     }
 
 
-    void DoFaceLeft( bool faceLeft)
-    {
-        if( faceLeft == true )
-        {
-            transform.localRotation = Quaternion.Euler(0, 180, 0);
-        }
-        else
-        {
-            transform.localRotation = Quaternion.Euler(0, 0, 0);
-        }
-    }
 
     void DoThrow()
     {
@@ -62,9 +61,20 @@ public class Enemy : MonoBehaviour
         GameObject newSpear = Instantiate(spear, new Vector3(x,y,0), Quaternion.identity);
 
         Rigidbody2D rb = newSpear.GetComponent<Rigidbody2D>();
-        rb.velocity = new Vector3(-25, 3, 0);
 
-        DoFaceLeft(newSpear, true);
+        if( helper.GetObjectDir() == Left )
+        {
+            rb.velocity = new Vector3(-35, 4, 0);
+            helper.FlipObject(newSpear, Left);
+        }
+        else
+        {
+            rb.velocity = new Vector3(35, 4, 0);
+            helper.FlipObject(newSpear, Right);
+        }
+
+
+        
     }
 
     void DoFaceLeft(GameObject obj, bool faceLeft)
@@ -72,6 +82,7 @@ public class Enemy : MonoBehaviour
         if (faceLeft == true)
         {
             obj.transform.localRotation = Quaternion.Euler(0, 180, 0);
+            
         }
         else
         {
