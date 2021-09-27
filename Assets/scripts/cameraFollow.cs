@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class cameraFollow : MonoBehaviour
 {
+    public Vector3 offset = new Vector3(0, 0, 0);
     // Start is called before the first frame update
 
      // drag player object to followTransform variable in inspector 
@@ -17,6 +18,6 @@ public class cameraFollow : MonoBehaviour
     // Update is called once per frame
     void LateUpdate()
     {
-        this.transform.position = new Vector3(followTransform.position.x, followTransform.position.y, this.transform.position.z);   
+        this.transform.position = offset + new Vector3(followTransform.position.x, followTransform.position.y, this.transform.position.z);   
     }
 }
