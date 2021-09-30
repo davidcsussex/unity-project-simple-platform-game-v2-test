@@ -62,6 +62,7 @@ public class Enemy : MonoBehaviour
 
         Rigidbody2D rb = newSpear.GetComponent<Rigidbody2D>();
 
+        // if enemy is facing left, throw the spear to the left
         if( helper.GetObjectDir() == Left )
         {
             rb.velocity = new Vector3(-35, 4, 0);

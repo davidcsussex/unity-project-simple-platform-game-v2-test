@@ -69,7 +69,7 @@ public class PlayerScript : MonoBehaviour
         if ( Input.GetKey("left"))
         {
             velocity.x = -10;
-            anim.Play("walk");
+            
         }
 
         // check for moving right
@@ -82,11 +82,11 @@ public class PlayerScript : MonoBehaviour
 
         if( velocity.x != 0 )
         {
-            anim.Play("walk");
+            anim.SetBool("walk", true );
         }
         else
         {
-            anim.Play("idle");
+            anim.SetBool("walk", false );
         }
 
         
