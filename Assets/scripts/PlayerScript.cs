@@ -7,12 +7,15 @@ public class PlayerScript : MonoBehaviour
     private Rigidbody2D rb;
     private Animator anim;
     bool isGrounded;
+    bool isJumping;
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+
+        isJumping = false;
 
     }
 
@@ -21,6 +24,7 @@ public class PlayerScript : MonoBehaviour
     {
         DoJump();
         DoMove();
+        DoLand();
         
     }
 
@@ -31,11 +35,9 @@ public class PlayerScript : MonoBehaviour
         // check for jump
         if (Input.GetKey("space") && (isGrounded==true) )
         {
-            if (velocity.y < 0.01f )
-            {
-                velocity.y = 25f;    // give the player a velocity of 5 in the y axis
-                
-            }
+           velocity.y = 25f;    // give the player a velocity of 5 in the y axis
+           anim.SetBool("jump",true);
+           isJumping = true;
         }
 
         rb.velocity = velocity;
@@ -102,6 +104,20 @@ public class PlayerScript : MonoBehaviour
 
 
         rb.velocity = velocity;
+    }
+
+
+    void DoLand()
+    {
+        // check for player landing
+
+        if( isJumping && isGrounded && (rb.velocity.y <=0))
+        {
+            print("landed!");
+            // player was jumping and has now hit the ground
+            isJumping = false;
+            anim.SetBool("jump",false);
+        }
     }
 
     private void OnCollisionStay2D(Collision2D collision)
