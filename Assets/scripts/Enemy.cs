@@ -12,7 +12,7 @@ public class Enemy : MonoBehaviour
     public float enemySpeed;
     private Animator anim;
     public GameObject spear;
-    HelperScript helper;
+    
 
     
 
@@ -20,7 +20,7 @@ public class Enemy : MonoBehaviour
     void Start()
     {
         anim = GetComponent<Animator>();
-        helper = GetComponent<HelperScript>();
+        
 
         
 
@@ -41,11 +41,11 @@ public class Enemy : MonoBehaviour
 
         if ( player.transform.position.x < transform.position.x )
         {
-            helper.FlipObject(gameObject,Left);
+            HelperScript.FlipObject(gameObject,Left);
         }
         else
         {
-            helper.FlipObject(gameObject, Right);
+            HelperScript.FlipObject(gameObject, Right);
         }
     }
 
@@ -63,33 +63,41 @@ public class Enemy : MonoBehaviour
         Rigidbody2D rb = newSpear.GetComponent<Rigidbody2D>();
 
         // if enemy is facing left, throw the spear to the left
-        if( helper.GetObjectDir() == Left )
+        if( HelperScript.GetObjectDir(gameObject) == Left )
         {
             rb.velocity = new Vector3(-35, 4, 0);
-            helper.FlipObject(newSpear, Left);
+            HelperScript.FlipObject(newSpear, Left);
         }
         else
         {
             rb.velocity = new Vector3(35, 4, 0);
-            helper.FlipObject(newSpear, Right);
+            HelperScript.FlipObject(newSpear, Right);
         }
 
 
         
     }
 
-    void DoFaceLeft(GameObject obj, bool faceLeft)
+
+    void OnCollisionEnter2D( Collision2D col )
     {
-        if (faceLeft == true)
+        print("tag=" + col.gameObject.tag );
+        
+        if( col.gameObject.tag == "Bullet")
         {
-            obj.transform.localRotation = Quaternion.Euler(0, 180, 0);
-            
-        }
-        else
-        {
-            obj.transform.localRotation = Quaternion.Euler(0, 0, 0);
+            print("I've been hit by a bullet!");
+
         }
     }
 
+    void OnTriggerEnter2D( Collider2D col )
+    {
+        print("col=" + col.isTrigger );
+        if( col.tag == "Bullet")
+        {
+            print("Trigger - I've been hit by a bullet!");
+            Destroy(col.gameObject);
+        }
+    }
 
 }

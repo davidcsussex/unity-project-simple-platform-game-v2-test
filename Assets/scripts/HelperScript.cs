@@ -6,25 +6,36 @@ using static Globals;
 
 public class HelperScript : MonoBehaviour
 {
-    int direction;
+    
 
-    public void FlipObject( GameObject obj, int objectDirection )
+    public static void FlipObject( GameObject obj, int objectDirection )
     {
+        
+
         if( objectDirection == Left )
         {
             obj.transform.localRotation = Quaternion.Euler(0, 180, 0);
-            direction = Left;
+    
         }
         else
         {
             obj.transform.localRotation = Quaternion.Euler(0, 0, 0);
-            direction = Right;
+    
         }
+
+    
+        
     }
 
-    public int GetObjectDir()
+    public static int GetObjectDir( GameObject obj )
     {
-        return direction;
+        float ang = obj.transform.eulerAngles.y;
+        if( ang == 180 )
+        {
+            return Left;
+        }
+        else
+            return Right;
     }
 
 

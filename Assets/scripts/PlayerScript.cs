@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static Globals;
 
 public class PlayerScript : MonoBehaviour
 {
@@ -8,6 +9,8 @@ public class PlayerScript : MonoBehaviour
     private Animator anim;
     bool isGrounded;
     bool isJumping;
+    public GameObject bulletPrefab;
+    HelperScript helper;
 
     // Start is called before the first frame update
     void Start()
@@ -25,6 +28,7 @@ public class PlayerScript : MonoBehaviour
         DoJump();
         DoMove();
         DoLand();
+        DoShoot();
         
     }
 
@@ -44,17 +48,7 @@ public class PlayerScript : MonoBehaviour
 
     }
 
-    void DoFaceLeft( bool faceLeft)
-    {
-        if( faceLeft == true )
-        {
-            transform.localRotation = Quaternion.Euler(0, 180, 0);
-        }
-        else
-        {
-            transform.localRotation = Quaternion.Euler(0, 0, 0);
-        }
-    }
+    
 
     void DoMove()
     {
@@ -95,11 +89,11 @@ public class PlayerScript : MonoBehaviour
         // make player face left or right depending on whether his velocity is positive or negative
         if( velocity.x < -0.5f )
         {
-            DoFaceLeft(true);
+            HelperScript.FlipObject(gameObject, Left);
         }
         if( velocity.x > 0.5f )
         {
-            DoFaceLeft(false);
+            HelperScript.FlipObject(gameObject, Right);
         }
 
 
@@ -117,6 +111,35 @@ public class PlayerScript : MonoBehaviour
             // player was jumping and has now hit the ground
             isJumping = false;
             anim.SetBool("jump",false);
+        }
+    }
+
+    void DoShoot()
+    {
+        float x,y;
+        if ( Input.GetKeyDown("s"))        
+        {
+
+        x = transform.position.x;
+        y = transform.position.y+3;
+
+        GameObject bullet = Instantiate(bulletPrefab, new Vector3(x,y,0), Quaternion.identity);
+
+        Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
+
+        // if player is facing left, throw the spear to the left
+        if( HelperScript.GetObjectDir(gameObject) == Left )
+        {
+            rb.velocity = new Vector3(-65, 0, 0);
+            HelperScript.FlipObject(bullet, Left);
+        }
+        else
+        {
+            rb.velocity = new Vector3(65, 0, 0);
+            HelperScript.FlipObject(bullet, Right);
+        }
+
+
         }
     }
 
