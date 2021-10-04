@@ -6,7 +6,11 @@ using static Globals;
 
 public class HelperScript : MonoBehaviour
 {
-    
+
+    public static void FlipObjectTest(GameObject obj, bool faceLeft)
+    {
+
+    }
 
     public static void FlipObject( GameObject obj, int objectDirection )
     {

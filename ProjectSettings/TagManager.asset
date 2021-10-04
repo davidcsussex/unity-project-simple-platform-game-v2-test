@@ -9,6 +9,7 @@ TagManager:
   - tree
   - Enemy
   - Bullet
+  - square
   layers:
   - Default
   - TransparentFX

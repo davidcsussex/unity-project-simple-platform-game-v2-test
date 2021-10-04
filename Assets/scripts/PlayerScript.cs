@@ -90,6 +90,7 @@ public class PlayerScript : MonoBehaviour
         if( velocity.x < -0.5f )
         {
             HelperScript.FlipObject(gameObject, Left);
+            HelperScript.FlipObjectTest(gameObject,  true );
         }
         if( velocity.x > 0.5f )
         {
