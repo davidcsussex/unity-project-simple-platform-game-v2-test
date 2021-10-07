@@ -118,30 +118,31 @@ public class PlayerScript : MonoBehaviour
     void DoShoot()
     {
         float x,y;
+        float xvel;
         if ( Input.GetKeyDown("s"))        
         {
+            x = transform.position.x;
+            y = transform.position.y+3;
 
-        x = transform.position.x;
-        y = transform.position.y+3;
 
-        GameObject bullet = Instantiate(bulletPrefab, new Vector3(x,y,0), Quaternion.identity);
 
-        Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
+            // if player is facing left, move the bullet left
+            if( HelperScript.GetObjectDir(gameObject) == Left )
+            {
+                xvel = -65;
+                
 
-        // if player is facing left, throw the spear to the left
-        if( HelperScript.GetObjectDir(gameObject) == Left )
-        {
-            rb.velocity = new Vector3(-65, 0, 0);
-            HelperScript.FlipObject(bullet, Left);
+            }
+            else
+            {
+                xvel = 65;
+                
+
+            }
+
+            HelperScript.MakeBullet( bulletPrefab, x,y, xvel,0 );
         }
-        else
-        {
-            rb.velocity = new Vector3(65, 0, 0);
-            HelperScript.FlipObject(bullet, Right);
-        }
 
-
-        }
     }
 
     private void OnCollisionStay2D(Collision2D collision)
